@@ -1,0 +1,27 @@
+<%- include("partials/header") -%>
+
+<body>
+
+  <%- include("partials/navigation") -%>
+
+  <!-- Container Start -->
+  <div class="container home-container shadow">
+
+    <section>
+
+      <!-- Individual post header and content -->
+      <h1 class="home-post-title"> <%= title %> </h1>
+      <p class="home-content">
+        <%= content %>
+        <a href="/">Main Blog</a>
+      </p>
+
+    </section>
+
+  </div> <!-- Container End -->
+
+</body>
+
+<%- include("partials/footer") -%>
+
+</html>

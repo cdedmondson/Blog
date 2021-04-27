@@ -1,0 +1,38 @@
+<%- include("partials/header") -%>
+
+<body>
+
+    <%- include("partials/navigation") -%>
+
+    <!-- Container Start -->
+    <div class="container home-container shadow">
+
+      <section>
+
+        <h1 class="">Blog</h1>
+
+        <form class="" action="/blog" method="post">
+
+          <div class="form-group">
+
+            <label> Title </label>
+            <input type="text" name="publishPostTitle" class="form-control form-control-blog">
+
+            <label> Post </label>
+            <textarea name="publishPostText" class="form-control form-control-blog" rows="3"></textarea>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary publish-button">Publish</button>
+
+        </form>
+
+      </section>
+
+    </div> <!-- Container End -->
+
+</body>
+
+<%- include("partials/footer") -%>
+
+</html>
